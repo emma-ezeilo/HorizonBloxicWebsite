@@ -1,0 +1,260 @@
+body{
+    margin-right: 100px;
+    margin-left: 120px;
+}
+
+
+.container, .top-container{
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    column-gap: 20px;
+  
+}
+
+.heading-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Bioxic{
+    width: 240px;
+    display: flex;
+    align-items: center;
+    
+}
+.Bioxic img{
+    width: 30px;
+}
+
+.searching-div{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+}
+.search-image{
+    width: 20px;
+}
+.search-div{
+    display: flex;
+    display: inline;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.select-product{
+    height: 40px;
+}
+.search-input{
+    height: 40px;
+    flex: 1;
+    width: 0px;
+    align-self: center;
+}
+
+.top-right-icons{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.menu-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.menu-bar ul li{
+    display: inline;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+button{
+    background-color: transparent;
+    height: 40px;
+    align-self: center;
+    
+}
+button img{
+    width: 30px;
+}
+
+
+.logo-div img{
+    width: 20px;
+    
+}
+.alarm{
+    width: 20px;
+    margin-left: 10px;
+}
+.love{
+    width: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.love-notify{
+    position: relative;
+}
+.num3{
+    background: black;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 4px;
+    position: absolute;
+    top: -5px;
+    left: 35px;
+    font-size: 10px;
+    
+}
+.num2{
+    background: black;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 4px;
+    position: absolute;
+    top: -4px;
+    left: 20px;
+    font-size: 8px;
+}
+
+.left-div{
+    height: 200px;
+   
+}
+th{
+    height: 50px;
+    
+}
+.topCont{
+ 
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items:    center;
+   
+
+}
+
+.topCont img{
+    width: 30px;
+}
+
+
+.cont{
+   
+    height: 50px;
+    border-bottom: 1px rgb(232, 236, 236) solid;
+    background-color: rgb(250, 250, 245);
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.cont img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+img{
+ width: 400px;
+}
+
+.right-div{
+    display: flex;
+    height: 460px;
+    align-items: center;
+    background-color: rgb(250, 250, 245);
+
+}
+
+.organic{
+    border: 1px solid black;
+    padding: 3px 6px;
+   width: 180px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: rgb(46, 43, 43);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.organic-info-div{
+    padding-left: 30px;
+    width: 300px;
+}
+/* .furniture-image-div{
+    flex: 1
+} */
+.furniture{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.see-collection{
+    background-color: black;
+    color: white;
+    width: 140px;
+    padding: 10px;
+}
+
+.Furniture-image{
+margin-left: -120px;
+width: 700px;
+margin-top: -120px;
+
+
+}
+
+
+.down-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 40px;
+
+    
+}
+
+
+.bottom-text{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 240, 238);
+    align-items: center;
+    padding-top: 10px;
+    border: 1px rgb(208, 214, 211) solid;
+   
+}
+
+.bottom-text img{
+    width: 40px;
+    margin-right: 15px;
+}
+
+p{
+    margin-top: 3px;
+}
+
+span{
+    color: rgb(161, 29, 29);
+}
+
+select{
+    border: none;
+   
+}
+/* .home{
+    color: red;
+} */
